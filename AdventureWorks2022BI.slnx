@@ -1,0 +1,21 @@
+<Solution>
+  <Configurations>
+    <BuildType Name="Debug" />
+    <BuildType Name="Development" />
+    <BuildType Name="Release" />
+  </Configurations>
+  <Project Path="AdventureWorks2022DW/AdventureWorks2022DW.sqlproj" Id="c9e8d521-6d87-4649-bb71-3194ded693b3">
+    <BuildType Solution="Development|*" Project="Release" />
+    <Build />
+    <Deploy />
+  </Project>
+  <Project Path="AdventureWorks2022OLTP/AdventureWorks2022OLTP.sqlproj" Id="9beb0059-37d4-4fc3-9ca5-ad13d7fe86a5">
+    <BuildType Solution="Development|*" Project="Release" />
+    <Build />
+    <Deploy />
+  </Project>
+  <Project Path="AdventureWorksETL/AdventureWorksETL.dtproj" Type="c9674dcb-5085-4a16-b785-4c70dd1589bd">
+    <BuildType Project="Development" />
+    <Platform Project="?" />
+  </Project>
+</Solution>
